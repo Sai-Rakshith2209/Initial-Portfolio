@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--HEAD SECTION STARTS HERE...................................................................................................................-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title of our Project is here-->
+    <title>PortFolio Website</title>
+    <!--Link to our CSS Bootstrap Stylesheets-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Link to essential Bootstrap Scripts are pasted here -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!--Link to our Style sheet is over here-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Link to Google Fonts is here-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic"
+      rel="stylesheet"
+    />
+    <!--Link to our Font Awesome is over here-->    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--Link to jQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!--END OF HEAD SECTION....................................................................................................................................-->
+  <body>
+    <header>
+      <div class="logo">
+        <!-- My logo has to come here -->
+        <i class="fa fa-code fa-5x" id="x9"></i>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"> </span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Experience</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about-me" class="nav__link">Technical Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Introduction Section is here....................................................................................................................-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am
+        <strong>
+          <span>R</span>
+          <span>a</span>
+          <span>k</span>
+          <span>s</span>
+          <span>h</span>
+          <span>i</span>
+          <span>t</span>
+          <span>h</span>
+        </strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        <strong>Developer</strong>
+      </p>
+      <img
+        src="images/img.jpg"
+        class="intro__img"
+        alt="A Picture of Rakshith be here..."
+      />
+    </section>
+    <!-- My Services.. SECTION..........................................................................................................................-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">
+        <strong>
+          <span>I</span>
+          <span>n</span>
+          <span>t</span>
+          <span>r</span>
+          <span>o</span>
+          <span>d</span>
+          <span>u</span>
+          <span>c</span>
+          <span>t</span>
+          <span>i</span>
+          <span>o</span>
+          <span>n</span>
+        </strong>
+        <i class="far fa-handshake " id="x8"></i></h3>
+      </h2>
+      <div class="services">
+                
+        <div class="service">
+          <h3 id="ex2"><strong>Android App Development</strong><i class="fab fa-android fa-2x w2"></i></h3>
+          <p>
+            <br />
+            What is Lorem Ipsum Lorem Ipsum is simply dummy text 
+            What is Lorem Ipsum Lorem Ipsum is simply dummy text 
+            What is Lorem Ipsum Lorem Ipsum is simply dummy text 
+            What is Lorem Ipsum Lorem Ipsum is simply dummy text 
+            What is Lorem Ipsum Lorem Ipsum is simply dummy text                
+          </p>
+        </div>
+      </div>
+      <a href="#work" id="g3">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <strong>          
+          My Works <i class="fas fa-wrench fa-1x"></i>
+        </strong>
+    </a>      
+    </section>
+    <!--About Me SECTION ...................................................................................................-->
+    <section class="about-me" id="about-me">
+      <div class="banner-area">
+        <h3 id="x1">
+          <strong><i class="fas fa-cogs"></i><br><br><span class="type"></span></strong>
+        </h3>
+      </div>
+      <script src="js/typed.js"></script>
+      <script>
+        var typed = new Typed(".type", {
+          strings: ["<span style='color:#228B22'>Technical</span> Skills:"],
+          typeSpeed: 60,
+          backSpeed: 60,
+          loop: true,
+        });
+      </script>
+
+      <p class="section__subtitle section__subtitle--about"></p>
+      <div class="about-me__body">
+        <br />
+        <p>
+          <ul>            
+            <li><h3><strong>Java</strong><i class="fab fa-java fa-2x" id="p1"></i></h3></li>
+            <li><h3><strong>Kotlin<img src="images/kotlin.png" id="d4" alt=""></strong></h3></li>
+            <li><h3><strong>HTML5</strong><i class="fab fa-html5 fa-2x" id="p2"></i></h3></li>
+            <li><h3><strong>CSS3</strong><i class="fab fa-css3 fa-2x" id="p3"></i></h3></li>
+            <li><h3><strong>Bootstrap 4</strong><i class="fab fa-bootstrap fa-2x" id="p4"></i></h3></li>
+            <li><h3><strong>JavaScript</strong><i class="fab fa-js-square fa-2x" id="p5"></i></h3></li>
+            <li><h3><strong>NodeJs</strong><i class="fab fa-node fa-2x" id="p6"></i></h3></li>
+            <li><h3><strong>MongoDB<img src="images/mongo.png" id="d5" alt=""></strong></h3></li>
+            <li><h3><strong>ReactJs</strong><i class="fab fa-react fa-2x" id="p7"></i></h3></li>            
+            <li><h3><strong>Python 3 (Learning) </strong><i class="fab fa-python fa-2x" id="p8"></i></h3></li>            
+          </ul>
+        </p>       
+      </div>
+    </section>
+    <!-- WORK SECTION .......................................................................................-->
+    <!--My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title"><strong>
+        <div class="wavy">
+          <span style="--i: 1;">M</span>
+          <span style="--i: 2;">Y</span>
+          <span style="--i: 3;"></span>
+          <span style="--i: 4;"></span>           
+          <span style="--i: 5;">W</span>
+          <span style="--i: 6;">O</span>
+          <span style="--i: 7;">R</span>
+          <span style="--i: 8;">K</span>          
+        </div>
+      </strong></h2>
+      <p class="section__subtitle">
+        <br>        
+      </p>
+      
+        <h2>Projects using Android Studio <img id="s1" src="images/studio.png" alt=""></h2>
+        <br>
+        <a id="l1" href="https://github.com/Sai-Rakshith2209/Currency-App" class="portfolio__item">
+          <h3><strong>Currency-Converter-App</strong></h3>    
+        </a>
+        <br>        
+        <a id="l2" href="https://github.com/Sai-Rakshith2209/Song-Player" class="portfolio__item">
+          <h3><strong>Song Player App</strong></h3>
+        </a>
+        <br>        
+        <a id="l3" href="https://github.com/Sai-Rakshith2209/Tourism-App" class="portfolio__item">
+          <h3><strong>Tourism App</strong></h3>
+        </a>      
+        <br>
+        <a id="l3" href="https://github.com/Sai-Rakshith2209/Bluetooth-Finder" class="portfolio__item">
+          <h3><strong>Bluetooth Device Finder</strong></h3>
+        </a>        
+        <br>
+        
+
+
+      
+    </section>
+
+    <!--FOOTER SECTION....................................................................................................................-->
+    <footer class="footer">
+      <a  href="mailto:sairakshith10@gmail.com" class="footer__link"
+        >sairakshith10@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/rakshith_2209?lang=en"
+            ><i class="social-icon fab fa-twitter fa-1x"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/Sai-Rakshith2209"
+            ><i class="social-icon fab fa-github fa-1x"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://dev.to/rakshith_2209"
+            ><i class="social-icon fab fa-dev fa-1x"></i
+          ></a>
+        </li>
+      </ul>
+      <p><strong> <i class="far fa-copyright"></i> <strong>Rakshith 2020</strong>
+        <div class="container">
+          <div class="text"></div>
+        </div>
+        
+      </strong></p>
+      <a id="b6" class="gotopbtn" href="#"><i  class="fas fa-arrow-circle-up fa-2x"></i></a>
+    </footer>    
+    <script src="js/index.js"></script>
+    <script src="js/scramble.js"></script>
+  </body>
+</html>
